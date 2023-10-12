@@ -14,4 +14,8 @@ RSpec.describe "So many failing tests" do
     uninitialized_variable # Attempting to use an undefined variable
     expect(true).to be(true)
   end
+
+  it "passes" do
+    expect(true).to be(true)
+  end
 end
