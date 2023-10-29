@@ -12,4 +12,7 @@ RSpec.describe "A sample test" do
   it "should fail when values are equal" do
     expect(3 * 4).not_to eq(12)
   end
+  it 11233 do
+    expect(42).to eql(39)
+  end
 end
