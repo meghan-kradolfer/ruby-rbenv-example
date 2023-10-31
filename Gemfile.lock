@@ -1,8 +1,7 @@
-GIT
-  remote: https://github.com/buildkite/test-collector-ruby.git
-  revision: ed97b1f6f1b9230890b679b634840700247669e7
+PATH
+  remote: ../test-collector-ruby
   specs:
-    buildkite-test_collector (2.3.2)
+    buildkite-test_collector (2.3.3)
       activesupport (>= 4.2)
 
 GEM
