@@ -1,3 +1,3 @@
 steps:
   - name: ":rspec:"
-    command: "bundle install && bundle exec rspec --color spec"
+    command: "bundle install && bundle exec rspec --color spec echo ':broom:'"
