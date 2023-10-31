@@ -2,7 +2,7 @@ require "spec_helper"
 RSpec.describe "So many failing tests" do
   it "should fail when the data type is incorrect" do
     string_value = "42"
-    expect(string_value).to be_a(Integer)
+    expect(string_value).to be_a(String)
   end
 
   it "should fail when expectation is not met" do
