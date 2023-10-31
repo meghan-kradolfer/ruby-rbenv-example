@@ -16,6 +16,6 @@ RSpec.describe "So many failing tests" do
   end
 
   it "passes" do
-    expect(true).to be(true)
+    expect(true).to be(false)
   end
 end
