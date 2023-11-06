@@ -20,23 +20,6 @@ RSpec.describe "So many failing tests" do
   end
 
   it "is flaky" do
-    random_boolean = [true, false].sample # Randomly select true or false
-
-    if random_boolean
-      expect(random_boolean).to be true
-    else
-      expect(random_boolean).to be false
-    end
-  end
-
-  it "passes when the time is even" do
-    current_time = Time.now
-    random_condition = current_time.sec.odd? # Test passes if the current seconds are odd
-
-    if random_condition
-      expect(random_condition).to be true
-    else
-      expect(random_condition).to be false
-    end
+    expect(rand(2).zero?).to be true
   end
 end
